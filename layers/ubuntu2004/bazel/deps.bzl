@@ -27,6 +27,6 @@ def deps():
             downloaded_file_path = "bazel_debs.tar",
             sha256 = "642685bcb6704ea2aaaaffb73f2885cc5bd0ca56b0c10b2ebd3808a4057c0f95",
             urls = [
-                "https://github.com/dzag/layer_artifacts/releases/download/2004/bazel_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004/bazel_debs.tar",
             ],
         )

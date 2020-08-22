@@ -10,6 +10,6 @@ def deps():
             downloaded_file_path = "python_debs.tar",
             sha256 = "4213384917ab3cb9213c3780f03a7f4b3b01ca878f4d897c3f01aca2a95746b4",
             urls = [
-                "https://github.com/dzag/layer_artifacts/releases/download/2004/python_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004/python_debs.tar",
             ],
         )

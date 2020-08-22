@@ -15,7 +15,7 @@ def deps():
             downloaded_file_path = "java_debs.tar",
             sha256 = "b5bb6c0d46426b3fa21bb46eeb2f0cad6cee3b8633888dae7bba62ca9cdab30b",
             urls = [
-                "https://github.com/dzag/layer_artifacts/releases/download/2004/java_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004/java_debs.tar",
             ],
         )
 
@@ -25,6 +25,6 @@ def deps():
             downloaded_file_path = "cacerts.tar",
             sha256 = "fd3da6ed8e6cbe7d217f820b29e75d9ed21fbe5f091c71f84eab420264ecab63",
             urls = [
-                "https://github.com/dzag/layer_artifacts/releases/download/2004/cacerts.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004/cacerts.tar",
             ],
         )
