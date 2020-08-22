@@ -7,7 +7,7 @@ CLANG_INSTALLER = struct(
 
 LIBCXX_INSTALLER = struct(
     revision = "92cb0ce8f814cd39ef4598fe074534cb787a9e78",
-    sha
+    sha256 = "0a41d953f82170594245fd6429286442b15a5db179f9d0e3de82959811328a72",
 )
 
 def deps():
