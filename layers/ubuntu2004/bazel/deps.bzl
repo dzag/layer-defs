@@ -1,5 +1,4 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
-load(":revisions.bzl", "BAZEL_INSTALLER")
 
 BAZEL_INSTALLER = struct(
     revision = "3.4.1",
