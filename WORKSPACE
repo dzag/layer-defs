@@ -1,9 +1,8 @@
-workspace(name = "layer_definitions_extra")
+workspace(name = "layer_defs")
 
 load(
     "@bazel_tools//tools/build_defs/repo:http.bzl",
     "http_archive",
-    "http_file",
 )
 
 load(":revisions.bzl", "RULES_DOCKER", "BAZEL_TOOLCHAINS")
