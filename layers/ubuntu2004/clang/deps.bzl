@@ -1,9 +1,13 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
-load(
-    ":revisions.bzl",
-    "CLANG_INSTALLER",
-    "LIBCXX_INSTALLER",
+CLANG_INSTALLER = struct(
+    revision = "92cb0ce8f814cd39ef4598fe074534cb787a9e78",
+    sha256 = "fede4fa15b1350d642a0af3a7c7a116262f70d66710160765c6af73927218ddd",
+)
+
+LIBCXX_INSTALLER = struct(
+    revision = "92cb0ce8f814cd39ef4598fe074534cb787a9e78",
+    sha
 )
 
 def deps():
