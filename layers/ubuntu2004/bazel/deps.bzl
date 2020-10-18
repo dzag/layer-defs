@@ -1,8 +1,13 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
 BAZEL_INSTALLER = struct(
-    revision = "3.4.1",
-    sha256 = "9808adad931ac652e8ff5022a74507c532250c2091d21d6aebc7064573669cc5",
+    revision = "3.6.0",
+    sha256 = "74818248b8c643da013f3e76c9fdc81c37dd4aceedcc7c55d2ba52ff6044379c",
+)
+
+BAZEL_DEPS = struct(
+    revision = "2004.1.0",
+    sha256 = "02b6f5671573745c20eb433bf9860715f904ff6204e4a142ffab185d497827d0",
 )
 
 def deps():
@@ -25,8 +30,8 @@ def deps():
         http_file(
             name = "ubuntu2004_bazel_debs",
             downloaded_file_path = "bazel_debs.tar",
-            sha256 = "642685bcb6704ea2aaaaffb73f2885cc5bd0ca56b0c10b2ebd3808a4057c0f95",
+            sha256 = BAZEL_DEPS.sha256,
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004/bazel_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/" + BAZEL_DEPS.revision +"/bazel_debs.tar",
             ],
         )
