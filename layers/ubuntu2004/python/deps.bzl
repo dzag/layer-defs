@@ -8,8 +8,8 @@ def deps():
         http_file(
             name = "ubuntu2004_python_debs",
             downloaded_file_path = "python_debs.tar",
-            sha256 = "4213384917ab3cb9213c3780f03a7f4b3b01ca878f4d897c3f01aca2a95746b4",
+            sha256 = "87cf12786c11c209877f952bf09d0ca86776ada120e9fa3cca11bd4c469dd66f",
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004/python_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004.2.0/python_debs.tar",
             ],
         )

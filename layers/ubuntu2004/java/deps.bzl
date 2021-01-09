@@ -13,9 +13,9 @@ def deps():
         http_file(
             name = "ubuntu2004_java_debs",
             downloaded_file_path = "java_debs.tar",
-            sha256 = "b5bb6c0d46426b3fa21bb46eeb2f0cad6cee3b8633888dae7bba62ca9cdab30b",
+            sha256 = "af0bd127063dd58f2ecd485c74512f26fa6455ef9da8f5d6a881413673a5a96c",
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004/java_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004.2.0/java_debs.tar",
             ],
         )
 

@@ -8,8 +8,8 @@ def deps():
         http_file(
             name = "ubuntu2004_docker_debs",
             downloaded_file_path = "docker_debs.tar",
-            sha256 = "cb312ed18899cb5ef34560de3926d13df9b2ef5eb8d8b0bd3145f599a39e8593",
+            sha256 = "619702cdf0238bfdf9bd6e1e5b8167160b151d5656e7ac31e38659aa9ca418e7",
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004/docker_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004.2.0/docker_debs.tar",
             ],
         )
