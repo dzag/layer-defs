@@ -21,8 +21,8 @@ download_pkgs(
     image_tar = "@ubuntu2004//image",
     packages = [
         "ca-certificates-java",
-        "openjdk-11-jdk-headless",
-        "openjdk-11-jre-headless",
+        "openjdk-15-jdk-headless",
+        "openjdk-15-jre-headless",
     ],
 )
 
@@ -56,12 +56,12 @@ language_tool_layer(
     name = "java-ltl",
     base = "@ubuntu2004//image",
     env = {
-        "JAVA_HOME": "/usr/lib/jvm/java-11-openjdk-amd64",
+        "JAVA_HOME": "/usr/lib/jvm/java-15-openjdk-amd64",
     },
     installables_tar = "@ubuntu2004_java_debs//file",
     installation_cleanup_commands = JAVA_CLEANUP_COMMANDS,
     symlinks = {
-        "/usr/bin/java": "/usr/lib/jvm/java-11-openjdk-amd64/bin/java",
+        "/usr/bin/java": "/usr/lib/jvm/java-15-openjdk-amd64/bin/java",
     },
     tars = [
         "@ubuntu2004_java_cacerts//file",

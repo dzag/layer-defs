@@ -19,9 +19,9 @@ def deps():
         http_file(
             name = "ubuntu2004_clang_debs",
             downloaded_file_path = "clang_debs.tar.gz",
-            sha256 = "96604935a43b69f4ae85746c86b59f68b4c05c7e68fb2151890d8d54b85e13ba",
+            sha256 = "74ad87317df5060748b3b69afabaa3f625e00029389b14c1177d30b8a308f901",
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004.2.0/clang_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004.3.0/clang_debs.tar",
             ],
         )
 

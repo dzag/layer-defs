@@ -50,10 +50,6 @@ load("@io_bazel_rules_docker//repositories:deps.bzl", container_deps = "deps")
 
 container_deps()
 
-load("@io_bazel_rules_docker//repositories:pip_repositories.bzl", "pip_deps")
-
-pip_deps()
-
 # UBUNTU 20.04
 
 load("//layers/ubuntu2004/base:deps.bzl", ubuntu2004_base_deps = "deps")
