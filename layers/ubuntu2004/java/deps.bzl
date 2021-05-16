@@ -20,6 +20,6 @@ def deps():
             downloaded_file_path = "cacerts.tar",
             sha256 = "2518837dbc04225a1b0594097b3fd0eb6b250e95f64048445129ab6beda9168d",
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004/cacerts.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/2004.3.0/cacerts.tar",
             ],
         )
