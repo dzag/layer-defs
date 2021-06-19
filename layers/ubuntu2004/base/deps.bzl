@@ -7,7 +7,7 @@ def deps():
     if "ubuntu2004" not in excludes:
         container_pull(
             name = "ubuntu2004",
-            digest = "sha256:f3b4b1cb650b96c0a7cb98fdbaec1e02021c1ec1fc818bf85b32a6bfbfc23046",
+            digest = "sha256:0ac9ad647133d6f157e332a71dc3a96ddabe222e1f32d01550c8fa310efa7638",
             registry = "index.docker.io",
             repository = "dzag/ubuntu2004",
         )

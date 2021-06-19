@@ -1,13 +1,18 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
 CLANG_INSTALLER = struct(
-    revision = "92cb0ce8f814cd39ef4598fe074534cb787a9e78",
-    sha256 = "fede4fa15b1350d642a0af3a7c7a116262f70d66710160765c6af73927218ddd",
+    revision = "88c9162c9d47ef43a505bc5301dc626f3cd4f437",
+    sha256 = "729134bdde35efa69e2a0043671428effe73ac2d65bb0c26f1ea564520d41f44",
 )
 
 LIBCXX_INSTALLER = struct(
-    revision = "92cb0ce8f814cd39ef4598fe074534cb787a9e78",
-    sha256 = "0a41d953f82170594245fd6429286442b15a5db179f9d0e3de82959811328a72",
+    revision = "88c9162c9d47ef43a505bc5301dc626f3cd4f437",
+    sha256 = "eaa056ccc78b891245d69411dd713bd3d57b7020a27039c139d7462a648fda05",
+)
+
+CLANG_DEPS = struct(
+    revision = "2004.4.0",
+    sha256 = "8899e7549ea7dec6507be58c8d6d45da66ff32d317be2778434524821bc977a7"
 )
 
 def deps():
@@ -19,9 +24,9 @@ def deps():
         http_file(
             name = "ubuntu2004_clang_debs",
             downloaded_file_path = "clang_debs.tar.gz",
-            sha256 = "74ad87317df5060748b3b69afabaa3f625e00029389b14c1177d30b8a308f901",
+            sha256 = CLANG_DEPS.sha256,
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/2004.3.0/clang_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/" + CLANG_DEPS.revision "/clang_debs.tar",
             ],
         )
 
