@@ -26,7 +26,7 @@ def deps():
             downloaded_file_path = "clang_debs.tar.gz",
             sha256 = CLANG_DEPS.sha256,
             urls = [
-                "https://github.com/dzag/layer-artifacts/releases/download/" + CLANG_DEPS.revision "/clang_debs.tar",
+                "https://github.com/dzag/layer-artifacts/releases/download/" + CLANG_DEPS.revision + "/clang_debs.tar",
             ],
         )
 
