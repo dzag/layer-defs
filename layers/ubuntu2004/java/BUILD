@@ -61,7 +61,7 @@ language_tool_layer(
     installables_tar = "@ubuntu2004_java_debs//file",
     installation_cleanup_commands = JAVA_CLEANUP_COMMANDS,
     symlinks = {
-        "/usr/bin/java": "/usr/lib/jvm/java-15-openjdk-amd64/bin/java",
+        "/usr/bin/java": "/usr/lib/jvm/java-16-openjdk-amd64/bin/java",
     },
     tars = [
         "@ubuntu2004_java_cacerts//file",
