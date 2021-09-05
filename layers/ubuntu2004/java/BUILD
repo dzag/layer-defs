@@ -21,8 +21,8 @@ download_pkgs(
     image_tar = "@ubuntu2004//image",
     packages = [
         "ca-certificates-java",
-        "openjdk-15-jdk-headless",
-        "openjdk-15-jre-headless",
+        "openjdk-16-jdk-headless",
+        "openjdk-16-jre-headless",
     ],
 )
 

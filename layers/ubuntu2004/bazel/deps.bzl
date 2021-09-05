@@ -1,13 +1,13 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
 BAZEL_INSTALLER = struct(
-    revision = "4.1.0",
-    sha256 = "e3f08054165be0a5e90779654b0e5c68d262ae794407d6347cdc6e8d05fafaaf",
+    revision = "5.0.0-pre.20210826.1",
+    sha256 = "9b916996c58af77180f657d8f55c61f6cfa9868bfa87b5ed2d4c9467a6ddb3d0",
 )
 
 BAZEL_DEPS = struct(
-    revision = "2004.4.0",
-    sha256 = "18a44c17044490ed1b684f16cd4784f682b9a98cbb5770fab730a884d6490fbd",
+    revision = "2004.5.0",
+    sha256 = "9a6eab8fb239d9e9428abd07f7b3d77644cfd26ced6c9e468b0bebc4de24d083",
 )
 
 def deps():

@@ -1,8 +1,8 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
 PYTHON_DEPS = struct(
-    revision = "2004.4.0",
-    sha256 = "17c17d31581f6572806ff84998efc53a066f49016a8e3e148e0f761cbfedac5c"
+    revision = "2004.5.0",
+    sha256 = "331cb723f3d581a7c9854cb79ab05e895695e9a8278ee0169d50d25e47b99abc"
 )
 
 def deps():

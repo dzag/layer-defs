@@ -1,8 +1,8 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
 DOCKER_DEPS = struct(
-    revision = "2004.4.0",
-    sha256 = "35f90f2a4be9f9ee37b23fcf4215e588ebde74d9ebc5ef75f1ae9966631de112"
+    revision = "2004.5.0",
+    sha256 = "4ee243c42285bff7ffefb50e01ad109d5394283924f5636d979ac82485601722"
 )
 
 def deps():

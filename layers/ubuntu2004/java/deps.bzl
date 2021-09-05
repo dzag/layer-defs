@@ -1,9 +1,9 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_file")
 
 JAVA_DEPS = struct(
-    revision = "2004.4.0",
-    java_sha256 = "e23e0bc4cc2016275112fd7d1b8b3e088ea25e37578601d78f05d12ffa5e184a",
-    cacerts_sha256 = "6432a4aeef57f6f3b115fe57dbaac90600a56672c359ab8dd654b5d3417a5a15"
+    revision = "2004.5.0",
+    java_sha256 = "169876d231e7fdc8775e9ed2df850a26cd96edb7297b8f9eb1f51d9a864d7ba6",
+    cacerts_sha256 = "3e1322466722719eb5ce3c64bb1b8e0ff975e6a100b65926b715220d5e7de34a"
 )
 
 def deps():
